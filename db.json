@@ -1,67 +1,200 @@
-[
-  { "id": 1, "term": "Algorithm", "definition": "A step-by-step procedure to solve a problem or perform a task." },
-  { "id": 2, "term": "Data Structure", "definition": "A way of organizing and storing data for efficient access and modification." },
-  { "id": 3, "term": "Big-O Notation", "definition": "Mathematical notation to describe the time and space complexity of algorithms." },
-  { "id": 4, "term": "Array", "definition": "A collection of elements identified by an index or key, stored in contiguous memory." },
-  { "id": 5, "term": "Stack", "definition": "A linear data structure that follows the Last In, First Out (LIFO) principle." },
-  { "id": 6, "term": "Queue", "definition": "A linear data structure that follows the First In, First Out (FIFO) principle." },
-  { "id": 7, "term": "Linked List", "definition": "A collection of nodes where each node contains data and a reference to the next node." },
-  { "id": 8, "term": "Hashing", "definition": "A technique to map data of arbitrary size to fixed-size values, usually for fast lookups." },
-  { "id": 9, "term": "Recursion", "definition": "A technique where a function calls itself to solve smaller subproblems." },
-  { "id": 10, "term": "Binary Tree", "definition": "A hierarchical data structure where each node has at most two children." },
-  { "id": 11, "term": "Binary Search Tree", "definition": "A binary tree where left child < parent < right child, used for efficient searching." },
-  { "id": 12, "term": "Heap", "definition": "A complete binary tree used to implement priority queues." },
-  { "id": 13, "term": "Graph", "definition": "A collection of nodes (vertices) and edges connecting pairs of nodes." },
-  { "id": 14, "term": "DFS", "definition": "Depth First Search, a graph traversal algorithm exploring as deep as possible before backtracking." },
-  { "id": 15, "term": "BFS", "definition": "Breadth First Search, a graph traversal algorithm exploring level by level." },
-  { "id": 16, "term": "Sorting", "definition": "Arranging data in a specific order such as ascending or descending." },
-  { "id": 17, "term": "Merge Sort", "definition": "A divide and conquer algorithm that splits arrays, sorts them, and merges them back." },
-  { "id": 18, "term": "Quick Sort", "definition": "A divide and conquer sorting algorithm using partitioning around a pivot." },
-  { "id": 19, "term": "Dynamic Programming", "definition": "An optimization technique that solves problems by breaking them into overlapping subproblems." },
-  { "id": 20, "term": "Greedy Algorithm", "definition": "An approach where decisions are made by choosing the best immediate option." },
-  { "id": 21, "term": "Divide and Conquer", "definition": "An algorithm design paradigm that breaks problems into subproblems, solves them, and combines results." },
-  { "id": 22, "term": "Deadlock", "definition": "A state where processes are stuck waiting for resources held by each other indefinitely." },
-  { "id": 23, "term": "Operating System", "definition": "Software that manages computer hardware and provides services for applications." },
-  { "id": 24, "term": "Process", "definition": "An instance of a program in execution." },
-  { "id": 25, "term": "Thread", "definition": "The smallest unit of execution within a process." },
-  { "id": 26, "term": "Semaphore", "definition": "A synchronization primitive used to control access to shared resources." },
-  { "id": 27, "term": "Mutex", "definition": "A mutual exclusion object that allows only one thread to access a resource at a time." },
-  { "id": 28, "term": "Virtual Memory", "definition": "A memory management technique that uses disk storage as an extension of RAM." },
-  { "id": 29, "term": "Paging", "definition": "A memory management scheme where processes are divided into fixed-size pages." },
-  { "id": 30, "term": "Segmentation", "definition": "A memory management scheme that divides processes into variable-sized segments." },
-  { "id": 31, "term": "Cache", "definition": "A small, fast memory that stores frequently accessed data." },
-  { "id": 32, "term": "Database", "definition": "An organized collection of structured data." },
-  { "id": 33, "term": "SQL", "definition": "Structured Query Language, used to manage relational databases." },
-  { "id": 34, "term": "Normalization", "definition": "The process of organizing data to reduce redundancy and improve consistency." },
-  { "id": 35, "term": "Primary Key", "definition": "A unique identifier for each record in a database table." },
-  { "id": 36, "term": "Foreign Key", "definition": "A field that links one table to another in a relational database." },
-  { "id": 37, "term": "Index", "definition": "A database object that improves the speed of queries." },
-  { "id": 38, "term": "Transaction", "definition": "A sequence of database operations executed as a single unit of work." },
-  { "id": 39, "term": "ACID", "definition": "Atomicity, Consistency, Isolation, Durability - properties of reliable transactions." },
-  { "id": 40, "term": "Normalization Forms", "definition": "Different levels of database normalization (1NF, 2NF, 3NF, BCNF)." },
-  { "id": 41, "term": "Computer Network", "definition": "A set of computers connected for sharing resources and communication." },
-  { "id": 42, "term": "IP Address", "definition": "A unique numerical label assigned to each device connected to a network." },
-  { "id": 43, "term": "DNS", "definition": "Domain Name System, translates domain names to IP addresses." },
-  { "id": 44, "term": "HTTP", "definition": "HyperText Transfer Protocol, used for communication between web browsers and servers." },
-  { "id": 45, "term": "HTTPS", "definition": "Secure version of HTTP that uses encryption (SSL/TLS)." },
-  { "id": 46, "term": "TCP", "definition": "Transmission Control Protocol, ensures reliable communication between systems." },
-  { "id": 47, "term": "UDP", "definition": "User Datagram Protocol, provides faster but unreliable communication." },
-  { "id": 48, "term": "OSI Model", "definition": "A 7-layer framework for understanding network communication." },
-  { "id": 49, "term": "Firewall", "definition": "A network security device that filters traffic based on rules." },
-  { "id": 50, "term": "Encryption", "definition": "The process of converting data into a coded format to prevent unauthorized access." },
-  { "id": 51, "term": "Public Key Cryptography", "definition": "Encryption technique using a public and private key pair." },
-  { "id": 52, "term": "Compiler", "definition": "A program that translates source code into machine code." },
-  { "id": 53, "term": "Interpreter", "definition": "A program that executes source code line by line." },
-  { "id": 54, "term": "Programming Paradigm", "definition": "A style or way of programming, e.g., OOP, Functional, Procedural." },
-  { "id": 55, "term": "OOP", "definition": "Object-Oriented Programming, based on objects and classes." },
-  { "id": 56, "term": "Class", "definition": "A blueprint for creating objects in OOP." },
-  { "id": 57, "term": "Object", "definition": "An instance of a class in OOP." },
-  { "id": 58, "term": "Polymorphism", "definition": "OOP feature where a function or object behaves differently based on context." },
-  { "id": 59, "term": "Inheritance", "definition": "OOP feature where one class acquires properties of another." },
-  { "id": 60, "term": "Abstraction", "definition": "OOP concept of hiding implementation details and exposing only functionality." },
-  { "id": 61, "term": "Encapsulation", "definition": "OOP principle of bundling data and methods together while restricting access." },
-  { "id": 62, "term": "API", "definition": "Application Programming Interface, a set of rules for interaction between software components." },
-  { "id": 63, "term": "JSON", "definition": "JavaScript Object Notation, a lightweight data interchange format." },
-  { "id": 64, "term": "REST", "definition": "Representational State Transfer, an architecture for web services." },
-  { "id": 65, "term": "Microservices", "definition": "An architectural style where applications are built as a collection of loosely coupled services." }
-]
+{
+  "resources": [
+    {
+      "title": "JavaScript Docs",
+      "category": "Documentation",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+    },
+    {
+      "title": "React Docs",
+      "category": "Documentation",
+      "url": "https://react.dev/"
+    },
+    {
+      "title": "Node.js Docs",
+      "category": "Documentation",
+      "url": "https://nodejs.org/en/docs/"
+    },
+    {
+      "title": "GeeksforGeeks DSA",
+      "category": "DSA Practice",
+      "url": "https://www.geeksforgeeks.org/data-structures/"
+    },
+    {
+      "title": "LeetCode",
+      "category": "DSA Practice",
+      "url": "https://leetcode.com/"
+    },
+    {
+      "title": "Codeforces",
+      "category": "DSA Practice",
+      "url": "https://codeforces.com/"
+    },
+    {
+      "title": "HackerRank",
+      "category": "DSA Practice",
+      "url": "https://www.hackerrank.com/"
+    },
+    {
+      "title": "Roadmap.sh",
+      "category": "Roadmaps",
+      "url": "https://roadmap.sh/"
+    },
+    {
+      "title": "CS50 Harvard Course",
+      "category": "Courses",
+      "url": "https://cs50.harvard.edu/x/"
+    },
+    {
+      "title": "MIT OpenCourseWare - Algorithms",
+      "category": "Courses",
+      "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/"
+    },
+    {
+      "title": "System Design Primer (GitHub)",
+      "category": "System Design",
+      "url": "https://github.com/donnemartin/system-design-primer"
+    },
+    {
+      "title": "Design Gurus",
+      "category": "System Design",
+      "url": "https://www.designgurus.io/"
+    },
+    {
+      "title": "Cheatsheets.dev",
+      "category": "Cheatsheets",
+      "url": "https://devhints.io/"
+    },
+    {
+      "title": "OverAPI",
+      "category": "Cheatsheets",
+      "url": "https://overapi.com/"
+    },
+    {
+      "title": "Big O Cheatsheet",
+      "category": "Cheatsheets",
+      "url": "https://www.bigocheatsheet.com/"
+    },
+    {
+      "title": "FreeCodeCamp",
+      "category": "Courses",
+      "url": "https://www.freecodecamp.org/"
+    },
+    {
+      "title": "Exercism",
+      "category": "Practice",
+      "url": "https://exercism.org/"
+    },
+    {
+      "title": "Codewars",
+      "category": "Practice",
+      "url": "https://www.codewars.com/"
+    },
+    {
+      "title": "Project Euler",
+      "category": "Practice",
+      "url": "https://projecteuler.net/"
+    },
+    {
+      "title": "Awesome CS (GitHub)",
+      "category": "Collections",
+      "url": "https://github.com/ossu/computer-science"
+    },
+    {
+      "title": "CS Visualizations",
+      "category": "Learning Tools",
+      "url": "https://visualgo.net/"
+    },
+    {
+      "title": "Regex101",
+      "category": "Tools",
+      "url": "https://regex101.com/"
+    },
+    {
+      "title": "JSON Formatter",
+      "category": "Tools",
+      "url": "https://jsonformatter.org/"
+    },
+    {
+      "title": "Crontab Guru",
+      "category": "Tools",
+      "url": "https://crontab.guru/"
+    },
+    {
+      "title": "DevDocs",
+      "category": "Documentation",
+      "url": "https://devdocs.io/"
+    },
+    {
+      "title": "Stack Overflow",
+      "category": "Community",
+      "url": "https://stackoverflow.com/"
+    },
+    {
+      "title": "Reddit r/cscareerquestions",
+      "category": "Community",
+      "url": "https://www.reddit.com/r/cscareerquestions/"
+    },
+    {
+      "title": "GitHub Explore",
+      "category": "Open Source",
+      "url": "https://github.com/explore"
+    },
+    {
+      "title": "First Contributions",
+      "category": "Open Source",
+      "url": "https://github.com/firstcontributions/first-contributions"
+    },
+    {
+      "title": "Open Source Ideas",
+      "category": "Open Source",
+      "url": "https://github.com/open-source-ideas/open-source-ideas"
+    },
+    {
+      "title": "CS Theory Handbook",
+      "category": "Theory",
+      "url": "https://introtcs.org/public/index.html"
+    },
+    {
+      "title": "Compiler Explorer",
+      "category": "Tools",
+      "url": "https://godbolt.org/"
+    },
+    {
+      "title": "Linux Journey",
+      "category": "Courses",
+      "url": "https://linuxjourney.com/"
+    },
+    {
+      "title": "How HTTPS Works",
+      "category": "Theory",
+      "url": "https://howhttps.works/"
+    },
+    {
+      "title": "Khan Academy Algorithms",
+      "category": "Courses",
+      "url": "https://www.khanacademy.org/computing/computer-science/algorithms"
+    },
+    {
+      "title": "Scotch.io",
+      "category": "Learning",
+      "url": "https://scotch.io/"
+    },
+    {
+      "title": "The Odin Project",
+      "category": "Courses",
+      "url": "https://www.theodinproject.com/"
+    },
+    {
+      "title": "Real Python",
+      "category": "Documentation",
+      "url": "https://realpython.com/"
+    },
+    {
+      "title": "JavaPoint DSA",
+      "category": "DSA Practice",
+      "url": "https://www.javatpoint.com/data-structure-tutorial"
+    }
+  ]
+}
+
